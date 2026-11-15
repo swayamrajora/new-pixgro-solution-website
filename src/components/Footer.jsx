@@ -15,7 +15,7 @@ function Footer() {
             <span className="font-semibold tracking-tight text-white">PixGro</span>
           </a>
           <p className="mt-5 max-w-sm leading-7 text-slate-300">
-            India-based virtual assistant, digital operations, website, and marketplace support
+            Based in India virtual assistant, digital operations, website, and marketplace support
             for growing teams worldwide.
           </p>
 
