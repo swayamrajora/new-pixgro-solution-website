@@ -124,7 +124,7 @@ function Contact() {
     if (!serviceId || !templateId || !publicKey) {
       const subject = encodeURIComponent(`New enquiry from ${form.name}`)
       const body = encodeURIComponent(buildEmailBody(form))
-      window.location.href = `mailto:pixgro.team@gmail.com?subject=${subject}&body=${body}`
+      window.location.href = `mailto:hello@pixgrosolution.com?subject=${subject}&body=${body}`
       setStatus({
         type: 'success',
         message: 'Your email application was requested. Please press Send there to complete your enquiry.',
@@ -140,7 +140,7 @@ function Contact() {
         serviceId,
         templateId,
         {
-          to_email: 'pixgro.team@gmail.com',
+          to_email: 'hello@pixgrosolution.com',
           from_name: form.name,
           from_email: form.email,
           phone: form.phone,
@@ -210,7 +210,7 @@ function Contact() {
                 </span>
                 <div>
                   <p className="text-sm text-slate-400">Email</p>
-                  <p className="mt-1 font-semibold">pixgro.team@gmail.com</p>
+                  <p className="mt-1 font-semibold">hello@pixgrosolution.com</p>
                 </div>
               </div>
               <div className="flex gap-4">
