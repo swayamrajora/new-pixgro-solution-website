@@ -18,7 +18,7 @@ function CTA() {
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
                 Tell us which tasks are taking too much of your time. We will learn
-                about your workflow and suggest a practical support scope—without pressure.
+                about your workflow and suggest a practical support scope. without pressure.
               </p>
             </div>
 
