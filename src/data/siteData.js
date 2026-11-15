@@ -33,18 +33,18 @@ export const navLinks = [
 ]
 
 export const vaServices = [
-  { icon: UserRoundCheck, title: 'Executive & Founder Support', description: 'Inbox organization, scheduling, follow-ups, meeting preparation, and day-to-day coordination that keeps priorities moving.' },
-  { icon: FileText, title: 'Operations & Admin Support', description: 'Document preparation, CRM updates, data entry, reporting, research coordination, and organized back-office support.' },
+  { icon: UserRoundCheck, title: 'Executive & Founder Support', description: 'Inbox organization, scheduling, follow ups, meeting preparation, and daily coordination that keeps priorities moving.' },
+  { icon: FileText, title: 'Operations & Admin Support', description: 'Document preparation, CRM updates, data entry, reporting, research coordination, and organized administrative support.' },
   { icon: PenTool, title: 'Content & Marketing Support', description: 'Content scheduling, basic research, asset coordination, community support, and consistent execution for your marketing workflow.' },
-  { icon: Presentation, title: 'Research & Presentation Support', description: 'Market research, lead-list preparation, spreadsheet cleanup, and presentation support—handled carefully to your brief.' },
+  { icon: Presentation, title: 'Research & Presentation Support', description: 'Market research, lead list preparation, spreadsheet cleanup, and presentation support. handled carefully to your brief.' },
 ]
 
 export const services = [
-  { icon: UserRoundCheck, title: 'Virtual Assistant & Admin Support', description: 'Inbox, calendar, CRM, data entry, client follow-ups and recurring business operations—organized around your workflow.' },
+  { icon: UserRoundCheck, title: 'Virtual Assistant & Admin Support', description: 'Inbox, calendar, CRM, data entry, client follow ups and recurring business operations. organized around your workflow.' },
   { icon: Store, title: 'Real Estate & Property Support', description: 'Listing updates, tenant and vendor coordination, document tracking, scheduling and research support for property teams.' },
   { icon: BarChart3, title: 'Investor & Research Support', description: 'Lead research, spreadsheet organization, market monitoring and presentation preparation. Administrative research only, not financial advice.' },
   { icon: Megaphone, title: 'Digital Marketing & Content', description: 'Social media planning, content scheduling, creative coordination, campaign assistance and reporting.' },
-  { icon: Code2, title: 'Website Development', description: 'Responsive, modern websites with clear messaging, mobile-friendly layouts and conversion-focused contact experiences.' },
+  { icon: Code2, title: 'Website Development', description: 'Responsive, modern websites with clear messaging, mobile friendly layouts and designed for enquiries contact experiences.' },
   { icon: ShoppingBag, title: 'eCommerce & Marketplace Support', description: 'Amazon and Flipkart onboarding assistance, product listings, catalog updates, advertising coordination and account operations.' },
 ]
 
@@ -57,7 +57,7 @@ export const reasons = [
   {
     icon: Headphones,
     title: 'Reliable Remote Support',
-    description: 'A dependable India-based point of contact for updates, questions, and next steps.',
+    description: 'A dependable Based in India point of contact for updates, questions, and next steps.',
   },
   {
     icon: MessageCircle,
@@ -67,7 +67,7 @@ export const reasons = [
   {
     icon: Clock3,
     title: 'Structured Follow-Through',
-    description: 'Clear priorities, realistic timelines, and consistent follow-through across your recurring work.',
+    description: 'Clear priorities, realistic timelines, and consistent follow through across your recurring work.',
   },
   {
     icon: SearchCheck,
@@ -111,9 +111,9 @@ export const faqs = [
       'We support recurring administrative, operations, content, research, and coordination tasks. During the initial discussion, we will confirm whether your workflow and tools are a good fit.',
   },
   {
-    question: 'Can you support US-based clients from India?',
+    question: 'Can you support US clients from India?',
     answer:
-      'Yes. PixGro is India-based and works remotely with international clients. We agree communication channels, handoff practices, and an availability overlap that fits the engagement before work begins.',
+      'Yes. PixGro is Based in India and works remotely with international clients. We agree communication channels, handoff practices, and an availability overlap that fits the engagement before work begins.',
   },
   {
     question: 'How does pricing work for VA support?',
