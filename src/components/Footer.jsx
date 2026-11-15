@@ -21,11 +21,11 @@ function Footer() {
 
           <div className="mt-6 space-y-3 text-sm text-slate-300">
             <a
-              href="mailto:pixgro.team@gmail.com"
+              href="mailto:hello@pixgrosolution.com"
               className="flex items-center gap-3 transition hover:text-white"
             >
               <Mail size={17} />
-              pixgro.team@gmail.com
+              hello@pixgrosolution.com
             </a>
             <a
               href="tel:+919907504766"
