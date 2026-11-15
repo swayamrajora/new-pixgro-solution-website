@@ -1,24 +1,6 @@
-import { ArrowRight, CheckCircle2, Clock3, Globe2, Handshake } from 'lucide-react'
+import { ArrowRight, CheckCircle2 } from 'lucide-react'
 import { vaServices } from '../data/siteData'
 import SectionHeader from './SectionHeader'
-
-const supportPrinciples = [
-  {
-    icon: Globe2,
-    title: 'Remote by design',
-    text: 'India-based support for US and international teams, with communication and handoffs agreed up front.',
-  },
-  {
-    icon: Clock3,
-    title: 'Built around your workflow',
-    text: 'We work with your tools, priorities, and agreed availability—without adding unnecessary process.',
-  },
-  {
-    icon: Handshake,
-    title: 'A practical partnership',
-    text: 'Start with a focused scope, clear responsibilities, and a delivery model designed to be cost-efficient.',
-  },
-]
 
 function VirtualAssistant() {
   return (
@@ -29,7 +11,7 @@ function VirtualAssistant() {
         <SectionHeader
           eyebrow="Virtual assistant support"
           title="More focused time for your highest-value work"
-          description="For US-based founders, fund managers, agencies, creators, and lean teams that need dependable help behind the scenes—without the overhead of a full-time local hire."
+          description="For US founders, fund managers, agencies, creators, and lean teams that need dependable help behind the scenes. without the overhead of a full time local hire."
         />
 
         <div className="mt-14 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
@@ -45,22 +27,15 @@ function VirtualAssistant() {
             ))}
           </div>
 
-          <aside className="rounded-[2rem] bg-slate-950 p-7 text-white shadow-premium sm:p-9">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">A clear way to delegate</p>
-            <h3 className="mt-4 text-3xl font-semibold tracking-tight">Reliable support, without the extra overhead</h3>
-            <p className="mt-5 leading-8 text-slate-300">PixGro combines a thoughtful remote working style with a cost-conscious India-based delivery model. We focus on well-defined work, responsive communication, and systems your team can trust.</p>
-            <div className="mt-8 space-y-5">
-              {supportPrinciples.map((item) => (
-                <div key={item.title} className="flex gap-4">
-                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-white/10 text-emerald-300"><item.icon size={21} /></span>
-                  <div>
-                    <h4 className="font-semibold">{item.title}</h4>
-                    <p className="mt-1 text-sm leading-6 text-slate-300">{item.text}</p>
-                  </div>
-                </div>
-              ))}
+          <aside className="self-start rounded-3xl bg-slate-950 p-6 text-white shadow-premium sm:p-7">
+            <p className="text-xs font-semibold uppercase tracking-widest text-emerald-300">A simpler way to delegate</p>
+            <h3 className="mt-3 text-2xl font-semibold leading-tight tracking-tight">Reliable support. More time for you.</h3>
+            <p className="mt-3 text-sm leading-6 text-slate-300">Hand over recurring tasks to a skilled remote team. We agree on the work, keep communication clear, and help you focus on what matters most.</p>
+            <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+              <span className="flex items-center gap-2 text-sm text-slate-200"><CheckCircle2 size={16} className="shrink-0 text-emerald-300" />Clear responsibilities</span>
+              <span className="flex items-center gap-2 text-sm text-slate-200"><CheckCircle2 size={16} className="shrink-0 text-emerald-300" />Flexible support hours</span>
             </div>
-            <a href="#contact" className="mt-9 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-emerald-100">Discuss your support needs <ArrowRight size={17} /></a>
+            <a href="#contact" className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-100">Discuss your support needs <ArrowRight size={17} /></a>
           </aside>
         </div>
 
