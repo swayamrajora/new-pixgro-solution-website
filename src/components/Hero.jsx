@@ -90,7 +90,7 @@ function Hero() {
         <div>
           <div className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white/80 px-4 py-2 text-sm font-medium text-slate-700 shadow-sm backdrop-blur">
             <span className="h-2 w-2 rounded-full bg-emerald-500" />
-            India-based virtual assistant & digital operations support
+            Based in India virtual assistant & digital operations support
           </div>
 
           <h1 className="mt-7 max-w-4xl text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl lg:text-6xl xl:text-7xl">
@@ -98,7 +98,7 @@ function Hero() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            Hand off admin, content, real estate coordination, research, and digital operations to capable remote support. Spend less time on repetitive tasks and more time building your business—or enjoying life outside work. Serving businesses across the US, UK, Australia, India and beyond.
+            Hand off admin, content, real estate coordination, research, and digital operations to capable remote support. Spend less time on repetitive tasks and more time building your business. or enjoying life outside work. Serving businesses across the US, UK, Australia, India and beyond.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
