@@ -1,4 +1,4 @@
-import { Mail, MessageCircle, Phone } from 'lucide-react'
+import { Mail, MessageCircle } from 'lucide-react'
 import { navLinks, services } from '../data/siteData'
 
 function Footer() {
@@ -26,13 +26,6 @@ function Footer() {
             >
               <Mail size={17} />
               hello@pixgrosolution.com
-            </a>
-            <a
-              href="tel:+919907504766"
-              className="flex items-center gap-3 transition hover:text-white"
-            >
-              <Phone size={17} />
-              +91 9907504766
             </a>
             <a
               href="https://wa.me/919907504766"
