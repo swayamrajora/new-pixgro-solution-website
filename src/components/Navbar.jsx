@@ -15,7 +15,7 @@ function Navbar() {
       >
         <a href="#home" className="group flex items-center gap-3" onClick={closeMenu}>
           <img
-            src="/assets/pixgro-logo.png"
+            src="/assets/pixgro-new-logo.jpeg.jpeg"
             alt="PixGro logo"
             className="h-12 w-12 rounded-2xl object-cover shadow-soft transition-transform duration-300 group-hover:-translate-y-0.5"
           />
