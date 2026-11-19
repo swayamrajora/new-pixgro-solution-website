@@ -196,15 +196,6 @@ function Contact() {
 
             <div className="mt-8 space-y-5">
               <div className="flex gap-4">
-                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-white/10 text-emerald-300">
-                  <MessageCircle size={21} />
-                </span>
-                <div>
-                  <p className="text-sm text-slate-400">WhatsApp</p>
-                  <p className="mt-1 font-semibold">+91 9907504766</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
                 <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-white/10 text-blue-300">
                   <Mail size={21} />
                 </span>
@@ -279,7 +270,7 @@ function Contact() {
                   onChange={updateField}
                   autoComplete="tel"
                   className={inputClass('phone')}
-                  placeholder="+91 9907504766"
+                  placeholder="Your phone number (optional)"
                   aria-invalid={Boolean(errors.phone)}
                 />
                 {errors.phone && <p className="mt-2 text-sm text-red-600">{errors.phone}</p>}
