@@ -8,7 +8,7 @@ function Footer() {
         <div>
           <a href="#home" className="flex items-center gap-3">
             <img
-              src="/assets/pixgro-logo.png"
+              src="/assets/pixgro-new-logo.jpeg.jpeg"
               alt="PixGro logo"
               className="h-12 w-12 rounded-2xl object-cover"
             />
